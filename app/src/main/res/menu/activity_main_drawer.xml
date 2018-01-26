@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_abo"
+
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_aboutspon"
+            android:title="Sponsors" />
+        <item
+            android:id="@+id/nav_leaderboard"
+
+            android:title="Leaderboard" />
+            <item
+                android:id="@+id/nav_contact"
+
+                android:title="Contact us" />
+
+    </group>
+
+</menu>

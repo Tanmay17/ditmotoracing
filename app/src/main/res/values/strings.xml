@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DIT Motoracing</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="track_prompt">Choose Track</string>
+    
+    <string-array name="track_array">
+        <item>Irungattukottai Race Track, Sriperumbadur, Chennai</item>
+        <item>Buddh International Circuit, Greater Noida</item>
+        <item>Kari Motor Speedway, Coimbatore</item>
+        <item>Madras Motor Race Track, Chennai</item>
+        <item>Marina Kart Arena, Chennai</item>
+        <item>Meco Kartopia ,Bangalore</item>
+        <item>Chicane Circuit, Hyderabad</item>
+        <item>Mohite Racing Academy, Kolhapur</item>
+        <item>IndiKarting in Pune</item>
+        <item>Sector 29 Race Track,Gurugram, Haryana</item>
+        <item>Wabco India Proving Ground,Tamil Nadu</item>
+        <item>Quad Torc Track ,Mumbai, Maharashtra</item>
+        <item>Axles Raceway,Hyderabad, Telangana</item>
+        <item>Yash Motorsports Park,Ghatpally, Telangana</item>
+        <item>Sholavaram Airstrip, Chennai</item>
+    </string-array>
+</resources>

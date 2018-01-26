@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="d.www.myapplication.interest">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are you Interested in?"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000"/>
+        <LinearLayout
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#1374ac">
+            <TextView
+                android:id="@+id/race_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:text="Wanna Race???"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="12dp"
+            android:background="#2e9b5a">
+            <TextView
+                android:id="@+id/manage_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wanna Make Profit???"
+                android:textSize="35dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
